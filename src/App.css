@@ -1,0 +1,30 @@
+.bg {
+    width: 100%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    background: url('./pics/banner3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.fillpage {
+  background-color: rgba(255, 0, 125, 0.3);
+  position: absolute;
+  left: 3%;
+  top: 1%;
+  bottom: 10%;
+  width: 94%;
+}
+.footer {
+  background-color: green;
+  position: absolute;
+  left: 3%;
+  top: 90%;
+  bottom: 1%;
+  width: 94%;
+}
+
+.fade {
+  opacity: 0.90;
+  filter: alpha(opacity=90);
+}
